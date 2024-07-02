@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/index1.css">
+    <style></style>
+</head>
+    <body>
+        <div class="title"><b>African Sport</b></div>
+        <div class="breaddiv">
+                <div>
+                    <ul class="link" >
+                        <li><a href="LeagueTable\home.htm" target="iframe_a" onclick="displayLowMenu('OFF')" >Home |</a></li>
+                        <li><a href="LeagueTable\football.htm" target="iframe_a" onclick="displayLowMenu('ON')">Football</a></li>
+                    </ul>
+                </div>     
+                <div class="bread" id="lower">
+                    <ul class="breadmenu" >
+                        <li><a href="LeagueTable\football.htm" target="iframe_a">Football</a> > </li> 
+                        <li><a href="LeagueTable\football\table.htm" target="iframe_a"> Table</a></li>
+                        <li><a href="LeagueTable\football\scoresdiv.htm" target="iframe_a"> Scores & Fixtures</a></li>
+                    </ul>
+                </div>
+        </div>
+        <div>
+            <iframe src="LeagueTable\home.htm" name="iframe_a" frameborder="0" marginwidth="0" marginheight="0" margin-top: 0px; margin-bottom: 0px;
+            height="100%" width="100%" title="Iframe Body" ></iframe>
+        </div>
+        <script>
+            function displayLowMenu(flag){
+                var x = document.getElementById('lower');
+        
+                console.log('displayLowMenu(flag)')
+        
+                if(flag=='OFF'){
+                    x.style.display = "none";
+                    console.log('OFF')
+                }
+                if(flag=='ON'){
+                    x.style.display = "block";
+                    console.log('ON')
+                }
+            }
+        </script>
+    </body>
+</html>
+

@@ -1,0 +1,217 @@
+body {
+    overflow-y: hidden;
+    /* Hide vertical scrollbar */
+    overflow-x: hidden;
+    /* Hide horizontal scrollbar */
+}
+
+/*********** ul - scroll menu body **********/
+ul {
+    display: flex;
+    padding-left: 0px;
+    font-size: 13px;
+}
+
+div.sub-title {
+    font-size: 20px;
+    font-family: Arial;
+    height: 35px;
+}
+
+div.search-box {
+    font-size: 20px;
+    font-family: Arial;
+    height: 35px;
+}
+
+form {
+    max-width: 300px;
+    border: 2px solid rgb(0, 0, 0);
+}
+/*
+ flex-grow: 3;*/
+/******* Button - scroll menu ***********/
+button.button1 {
+    border: 0px solid black;
+    height: 24px;
+    background: rgb(230, 220, 30);
+}
+button.button2 {
+    border: 1px solid black;
+    height: 24px;
+    background: rgb(230, 220, 30);
+}
+
+/******* Input Field - search ***********/
+
+
+input:focus {
+    outline: none;
+}
+
+/********** Form - search box************/
+
+
+
+
+
+
+/***********************/
+
+div.smenu {
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+    min-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    border: 0px solid rgb(148, 8, 8);
+    display: flex;
+    align-items: center;
+}
+
+.smenu::-webkit-scrollbar {
+    display: none;
+}
+
+div.smenuc {
+    width: 100%;
+
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    padding: 0px;
+}
+
+.smenuc::-webkit-scrollbar {
+    display: none;
+}
+
+.smenuc a {
+    color: black;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 1px solid black;
+}
+
+.smenuc a:hover {
+    color: rgb(218, 52, 52);
+    text-decoration: none;
+}
+
+div.subTitle {
+    width: 100%;
+    height: 45px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+    font-size: 15px;
+    font-family: Arial;
+
+    color: black;
+    align-items: left;
+    border: 0px solid rgb(36, 15, 155);
+
+    padding-top: 10px;
+}
+
+.subTitle::-webkit-scrollbar {
+    display: none;
+}
+
+
+div.smenu {
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+    min-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    border: 0px solid rgb(148, 8, 8);  
+    display: flex;
+    align-items: center;
+}
+.smenu::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+
+
+/********** table ************/
+ 
+ table.headings {
+    text-align: center;
+
+    border-collapse: collapse;
+    border: 2px solid;
+    font-family: Arial;
+    font-size: 14px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+table.banner {
+    text-align: center;
+    width: 100%;
+    
+    border: none;
+    border-style: hidden;
+    border-collapse: collapse;
+}
+
+table,
+th,
+tr,
+td {
+    border: 1px solid;
+}
+
+tr.rows {
+
+    font-weight: bold;
+    border: 2px solid;
+}
+
+td.headcols {
+
+    border: 2px solid;
+}
+
+td.sidecols {
+    width: 35px;
+
+}
+
+td.poscols {
+    width: 30px;
+    border: 2px solid;
+}
+
+td.midcols {
+    width: 60px;
+
+}
+
+table.head {
+    border-collapse: collapse;
+    border: none !important;
+    width: 10px;
+    height: 20px;
+}
+
+

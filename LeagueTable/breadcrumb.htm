@@ -1,0 +1,120 @@
+<style>
+
+    ul {
+        height: 20px;
+    }
+    ul.link {
+        padding: 5px 16px;
+        list-style: none;
+        background-color: rgb(141, 253, 8);
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border-top: 1px solid black;
+        font-weight: bold;
+
+        max-width: 100%;
+        min-width: 275px;
+    
+    }
+
+    ul.link li {
+        display: inline;
+        color: rgb(1, 1, 1);
+        font-size: 15px;
+        font-family: Arial;
+
+        
+    }
+
+    ul.link li a {
+        color: rgb(1, 1, 1);
+        text-decoration: none;
+    }
+
+    ul.link li a:hover {
+        color: rgb(23, 2, 251);
+        text-decoration: underline;
+    }
+
+    ul.link li+li:after {
+        padding: 1px;
+        color: rgb(10, 10, 10);
+        content: "\00a0|\00a0";
+    }
+    div.bread{
+        display: none;
+    }
+    ul.breadmenu {
+        display: block;
+        padding: 5px 16px;
+        list-style: none;
+        background-color: rgba(5, 5, 5, 0.986);
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-weight: bold;
+
+        max-width: 100%;
+        min-width: 275px;
+    }
+
+
+    ul.breadmenu li {
+        display: inline;
+        color: rgb(249, 245, 245);
+        font-size: 15px;
+        font-family: Arial;
+        background-color: rgba(5, 5, 5, 0.986);
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+
+    ul.breadmenu li a {
+        color: rgb(248, 247, 247);
+        text-decoration: none;
+    }
+
+    ul.breadmenu li+li::after {
+        padding: 0px;
+        color: rgb(251, 247, 247);
+        content: "\00a0|\00a0";
+    }
+
+    ul.breadmenu li a:hover {
+        color: rgb(141, 253, 8);
+        text-decoration: underline;
+    }
+</style>
+
+<div>
+    <!--BREADCRUMB-->
+    <ul class="link" >
+        <li><a href="home.htm" target="iframe_a" onclick="displayLowMenu('OFF')" >Home |</a></li>
+        <li><a href="football.htm" target="iframe_a" onclick="displayLowMenu('ON')">Football</a></li>
+    </ul>
+</div>
+
+<div class="bread" id="lower">
+    <ul class="breadmenu" >
+        <li>Football ></li> 
+        <li><a href="football\table.htm" target="iframe_a">Table</a></li>
+        <li><a href="football\scoresdiv.htm" target="iframe_a"> Scores & Fixtures</a></li>
+    </ul>
+</div>
+
+<script>
+    function displayLowMenu(flag){
+        var x = document.getElementById('lower');
+
+        console.log('displayLowMenu(flag)')
+
+        if(flag=='OFF'){
+            x.style.display = "none";
+            console.log('OFF')
+        }
+        if(flag=='ON'){
+            x.style.display = "block";
+            console.log('ON')
+        }
+    }
+</script>

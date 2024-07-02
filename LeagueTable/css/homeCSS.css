@@ -1,0 +1,32 @@
+b {
+    font-weight: bold;
+}
+ul {
+
+    list-style-type: none;
+}
+table.center {
+
+    text-align: center;
+    
+    
+ 
+
+    font-family: Arial;
+    font-size: 13px;
+
+    max-width: 720px;
+    min-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
+td {
+    vertical-align: top;
+    text-align:left;    
+    width: 50%;
+    border: 1px solid black;
+    padding: 6px;
+}
+
