@@ -195,7 +195,7 @@ tr.rows {
 .rows::-webkit-scrollbar {
     display: none;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1500px) {
     div.sub-title-table, 
     .sub-title-scores {
 
@@ -213,18 +213,18 @@ tr.rows {
     }
 }
 
-@media screen and (max-width: 899px) {
+@media screen and (max-width: 1499px) {
     div.sub-title-table, 
     .sub-title-scores {
 
-        justify-content: left;
+        justify-content: center;
     }
     td.headcols {
         font-size: 14px;
 
     }
     table.headings{
-        margin-left: left;
+        margin-left: auto;
     }
     div.button-menu {
         max-width: 70%;
@@ -235,11 +235,11 @@ tr.rows {
 }
 
 /* If the screen size is Landscape (699px). */
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 1230px) {
     div.sub-title-table, 
     .sub-title-scores {
 
-        justify-content: left;
+        justify-content: center;
     }
     td.headcols {
         font-size: 14px;
@@ -251,7 +251,7 @@ tr.rows {
         display: none;
     }
     table.headings{
-        margin-left: auto;
+        margin-left: left;
     }
 
     div.button-menu {
@@ -266,7 +266,7 @@ tr.rows {
 @media screen and (max-width: 550px) {
     div.sub-title-table {
 
-        justify-content: left;
+        justify-content: center;
     }
     td.headFull,
     .headLand,
