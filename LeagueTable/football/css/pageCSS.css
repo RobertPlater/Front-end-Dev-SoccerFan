@@ -1,9 +1,4 @@
 /************* body ************************/
-
-
-
-
-
 body {
     overflow: hidden; /* Hide scrollbars */
   }
@@ -244,7 +239,7 @@ tr.rows {
     div.sub-title-table, 
     .sub-title-scores {
 
-        justify-content: center;
+        justify-content: left;
     }
     td.headcols {
         font-size: 14px;
@@ -271,7 +266,7 @@ tr.rows {
 @media screen and (max-width: 550px) {
     div.sub-title-table {
 
-        justify-content: center;
+        justify-content: left;
     }
     td.headFull,
     .headLand,
