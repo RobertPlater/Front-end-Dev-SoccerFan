@@ -1,0 +1,195 @@
+        /*index*/
+        div.title {
+            color: black;
+            text-align: center;
+            font-size: 25px;
+            font-family: Arial;
+            background-color: rgba(141, 253, 8);
+            padding: 10px 16px;
+            max-width: 100%;
+            min-width: 275px;
+            overflow-y: hidden;
+            /* Hide vertical scrollbar */
+            overflow-x: hidden;
+        }
+        iframe.top{
+
+            background-color: rgb(141, 253, 8);
+            overflow:hidden;
+        }
+        ul {
+            height: 20px;
+        }
+
+        ul.link {
+            padding: 5px 16px;
+            list-style: none;
+            background-color: rgb(141, 253, 8);
+            margin-top: 0px;
+            margin-bottom: 0px;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+            font-weight: bold;
+    
+            max-width: 100%;
+            min-width: 275px;
+    
+        }
+        ul.link li {
+            display: inline;
+            color: rgb(1, 1, 1);
+            font-size: 15px;
+            font-family: Arial;
+    
+            
+        }
+    
+        ul.link li a {
+            color: rgb(1, 1, 1);
+            text-decoration: none;
+        }
+    
+        ul.link li a:hover {
+            color: rgb(23, 2, 251);
+            text-decoration: underline;
+        }
+    
+        ul.link li+li:after {
+            padding: 1px;
+            color: rgb(10, 10, 10);
+            content: "\00a0|\00a0";
+        }
+        
+        ul.links {
+            padding: 5px 16px;
+            list-style: none;
+            background-color: rgb(141, 253, 8);
+            margin-top: 0px;
+            margin-bottom: 0px;
+            border-top: 1px solid rgb(2, 2, 2);
+            max-width: 100%;
+            min-width: 275px;
+        }
+        ul.links li {
+            display: inline;
+            color: rgb(1, 1, 1);
+            font-size: 15px;
+            font-family: Arial;
+        }
+        ul.links li a {
+            color: rgb(1, 1, 1);
+            text-decoration: none;
+        }
+        ul.links li a:hover {
+            color: rgb(201, 42, 42);
+            text-decoration: underline;
+        }
+
+        ul.links li+li:after {
+            padding: 1px;
+            color: rgb(10, 10, 10);
+            content: "|\00a0";
+        }
+        
+        div.bread{
+            
+            display: none;
+        }
+        ul.breadmenu {
+            display: block;
+            padding: 5px 16px;
+            list-style: none;
+            background-color: rgba(5, 5, 5, 0.986);
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-weight: bold;
+    
+            max-width: 100%;
+            min-width: 275px;
+        }
+    
+    
+        ul.breadmenu li {
+            display: inline;
+            color: rgb(249, 245, 245);
+            font-size: 15px;
+            font-family: Arial;
+            background-color: rgba(5, 5, 5, 0.986);
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding: 0px;
+        }
+    
+        ul.breadmenu li a {
+            color: rgb(248, 247, 247);
+            text-decoration: none;
+        }
+    
+        ul.breadmenu li+li::after {
+            padding: 0px;
+            color: rgb(251, 247, 247);
+            content: "\00a0|\00a0";
+        }
+    
+        ul.breadmenu li a:hover {
+            color: rgb(141, 253, 8);
+            text-decoration: underline;
+        }
+        ul.breadcrumb {
+            padding: 5px 16px;
+            list-style: none;
+            background-color: rgba(5, 5, 5, 0.986);
+            margin-top: 0px;
+            margin-bottom: 0px;
+            max-width: 100%;
+            min-width: 2750px;
+        }
+
+        ul.breadcrumb li {
+            display: inline;
+            color: rgb(249, 245, 245);
+            font-size: 15px;
+            font-family: Arial;
+        }
+        ul.breadcrumb li+li:after {
+            padding: 1px;
+            color: rgb(251, 247, 247);
+            content: "\00a0|";
+        }
+
+        ul.breadcrumb li a {
+            color: rgb(248, 247, 247);
+            text-decoration: none;
+        }
+
+        ul.breadcrumb li a:hover {
+            color: rgb(203, 70, 70);
+            text-decoration: underline;
+        }
+            /* size background */
+
+        div.breaddiv {
+            max-height: 20%;
+            min-height: 0%;
+        }
+        div.scrollmenu {
+            background-color: #333;
+            overflow: auto;
+            white-space: nowrap;
+            overflow-y: hidden;
+            /* Hide vertical scrollbar */
+            overflow-x: hidden;
+        }
+        div.scrollmenu a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px;
+            text-decoration: none;
+            overflow-y: hidden;
+            /* Hide vertical scrollbar */
+            overflow-x: hidden;
+        }
+        div.scrollmenu a:hover {
+            background-color: #777;
+        }
